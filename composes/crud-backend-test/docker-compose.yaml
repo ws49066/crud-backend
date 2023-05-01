@@ -1,0 +1,7 @@
+version: '3'
+services:
+    backend:
+      image: crud-backend:test
+      container_name: crud-backend
+      ports:
+          -8000:8000
