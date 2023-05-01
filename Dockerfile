@@ -14,7 +14,10 @@ WORKDIR /app
 RUN ls
 COPY --from=build ./ ./
 
+
 RUN ls
+RUN npm install
+
 
 EXPOSE 8000
 CMD npm run start
