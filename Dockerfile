@@ -12,7 +12,6 @@ RUN npm -v
 FROM  node:16.10.0 AS production
 WORKDIR /app
 RUN ls
-COPY .env ./
 COPY --from=build ./ ./
 
 RUN ls
