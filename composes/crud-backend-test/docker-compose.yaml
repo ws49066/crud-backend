@@ -4,4 +4,4 @@ services:
         image: crud-backend:test
         container_name: crud-backend
         ports:
-          - 8102:8000
+          - 8102:3001
