@@ -4,7 +4,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 RUN ls
-
+RUN npm prisma generate
 
 EXPOSE 8000
 CMD npm run start
