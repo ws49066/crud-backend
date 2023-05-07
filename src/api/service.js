@@ -22,6 +22,10 @@ app.use((req, res, next) => {
     next()
 })
 
+app.get('/', async(req, res) => {
+    res.send('Olá mundo')
+})
+
 app.get('/clientes', async (req, res) => {
 
     try {
