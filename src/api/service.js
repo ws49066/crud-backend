@@ -4,7 +4,7 @@ const app = Express()
 
 const prisma = new PrismaClient()
 
-const port = 8000
+const port = 3001
 
 app.use(Express.json())
 app.use(Express.urlencoded({ extended: true }))

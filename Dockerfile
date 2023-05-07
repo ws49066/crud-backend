@@ -6,5 +6,5 @@ COPY . .
 RUN ls
 RUN npx prisma generate
 
-EXPOSE 8000
+EXPOSE 3001
 CMD npm run start
