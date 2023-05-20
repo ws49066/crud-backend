@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             agent{
-                label "new_server_test"
+                label "test_server"
             }
 
             steps {
