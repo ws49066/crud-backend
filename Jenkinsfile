@@ -5,9 +5,8 @@ pipeline {
             agent{
                 label "test_server"
             }
-
             steps {
-                sh 'echo Deploy into test'
+                echo 'Deploy into test'
                 sh 'make deploy-test'
             }
         }
