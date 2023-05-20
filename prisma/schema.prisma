@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = "mongodb://admin:admin@localhost:27017/crud?authSource=crud"
+  url      = "mongodb://admin:admin@192.168.15.122:27017/crud?authSource=crud"
 }
 
 
